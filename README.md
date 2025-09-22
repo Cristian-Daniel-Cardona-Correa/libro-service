@@ -2,7 +2,16 @@
 
 Este proyecto utiliza Java, Spring Boot y Maven. A continuación se describen los endpoints principales para pruebas en Postman.
 
+
+
+# Requisitos previos
+- Tener JDK 21 o superior.
+- Tener Spring Boot 3.5.6 o superior.
+- Tener el proyecto clonado y configurado.
+- Asegurarse de que el servidor esté corriendo en `http://localhost:8080`.
+
 ---
+
 
 ## 1. Endpoint: Obtener todos los libros
 
