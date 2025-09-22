@@ -1,0 +1,10 @@
+INSERT INTO libro (titulo, autor, editorial, ano_publicacion) VALUES ('La divina comedia', 'Dante Alighieri', 'Editorial Clásica', 1320);
+INSERT INTO libro (titulo, autor, editorial, ano_publicacion) VALUES ('Cien años de soledad', 'Gabriel García Márquez', 'Editorial Sudamericana', 1967);
+INSERT INTO libro (titulo, autor, editorial, ano_publicacion) VALUES ('1984', 'George Orwell', 'Secker & Warburg', 1949);
+INSERT INTO libro (titulo, autor, editorial, ano_publicacion) VALUES ('Don Quijote de la Mancha', 'Miguel de Cervantes', 'Francisco de Robles', 1605);
+INSERT INTO libro (titulo, autor, editorial, ano_publicacion) VALUES ('La Odisea', 'Homero', 'Editorial Clásica', -800);
+INSERT INTO libro (titulo, autor, editorial, ano_publicacion) VALUES ('El gran Gatsby', 'F. Scott Fitzgerald', 'Charles Scribners Sons', 1925);
+INSERT INTO libro (titulo, autor, editorial, ano_publicacion) VALUES ('Crimen y castigo', 'Fiódor Dostoyevski', 'Editorial Russkaya Mysl', 1866);
+INSERT INTO libro (titulo, autor, editorial, ano_publicacion) VALUES ('Orgullo y prejuicio', 'Jane Austen', 'T. Egerton, Whitehall', 1813);
+INSERT INTO libro (titulo, autor, editorial, ano_publicacion) VALUES ('El señor de los anillos', 'J.R.R. Tolkien', 'Allen & Unwin', 1954);
+INSERT INTO libro (titulo, autor, editorial, ano_publicacion) VALUES ('One Piece', 'Eiichiro Oda', 'Shueisha', 1997);
