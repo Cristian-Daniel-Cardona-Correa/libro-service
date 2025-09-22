@@ -172,5 +172,6 @@ Este proyecto utiliza Java, Spring Boot y Maven. A continuación se describen lo
     
 ---
 ## Nota personal:
-No me gusta hacer videos.
+- No me gusta hacer videos.
+
 ![Logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaNjbD-QCcNOlxvbyeFgZI-NSBdo4wrJ15sQ&s)
