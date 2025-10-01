@@ -33,7 +33,7 @@ public class LibroRestController {
     private static final String LIBRO = "libro";
     private static final String LIBROS = "libros";
 
-    public LibroRestController(ILibroService libroService, ILibroRepository libroRepository) {
+    public LibroRestController(ILibroService libroService) {
         this.libroService = libroService;
     }
 
@@ -76,7 +76,7 @@ public class LibroRestController {
     @PostMapping("/libros")
     public ResponseEntity<Map<String, Object>> save(@Valid @RequestBody Libro libro, BindingResult result){
         if (result.hasErrors()){
-            throw new IllegalArgumentException("Error de validación");
+            throw new ValidationException(result);
         }
         Map<String, Object> response = new HashMap<>();
         Libro nuevoLibro = libroService.save(libro);
